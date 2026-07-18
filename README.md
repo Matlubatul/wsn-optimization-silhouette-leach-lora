@@ -1,26 +1,48 @@
-# Silhouette–LEACH Based LoRa Wireless Sensor Network
+# Silhouette-LEACH Optimization for LoRa-Based Wireless Sensor Network
 
 ## Overview
-This project focuses on optimizing the LEACH clustering protocol using the Silhouette Method for Wireless Sensor Network (WSN).
 
-The system combines simulation analysis and hardware implementation using LoRa communication.
+This project presents the implementation of the Silhouette-LEACH clustering method on a LoRa-based Wireless Sensor Network (WSN) to improve network throughput and energy efficiency.
 
-## Project Components
+The project consists of Python simulations and hardware implementation using ESP32 and LoRa SX1278.
 
-- Simulation using Python
-- K-Means clustering optimization with Silhouette Score
-- LEACH protocol simulation
-- ESP32 and LoRa hardware implementation
+## Repository Structure
+
+Hardware/
+Simulation/
+Results/
+Visualization/
 
 ## Hardware
 
-- ESP32 DevKitC
-- LoRa RA-02 433 MHz
-- DHT11 Sensor
-- MQ-2 Sensor
-- ACS712 Current Sensor
+- ESP32 DevKit
+- LoRa SX1278 RA-02
+- DHT11
+- MQ-2
+- Voltage Sensor
+- 18650 Battery
 
 ## Software
 
 - Python
 - Arduino IDE
+- Spyder
+- Microsoft Excel
+
+## Results
+
+- Silhouette Score
+- Throughput Analysis
+- Energy Consumption
+- Network Lifetime
+- Node Distribution
+
+## Visualization
+
+- Network Topology
+- Clustering Visualization
+- Node Distribution per Round
+
+## Author
+
+Matlubatul Masquroh
